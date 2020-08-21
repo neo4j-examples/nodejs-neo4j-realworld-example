@@ -2,8 +2,10 @@
   "name": "neo4j-express-realworld-example-app",
   "version": "1.0.0",
   "description": "conduit on node with neo4j",
-  "main": "src/app.js",
+  "main": "src/main.js",
   "scripts": {
+    "start": "node src/main.js",
+    "start:dev": "nodemon",
     "test": "jest --config ./test/jest-e2e.json --watch --detectOpenHandles"
   },
   "author": "Adam Cowley <adam+git@neo4j.com>",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "jest": "^26.4.1",
+    "nodemon": "^2.0.4",
     "supertest": "^4.0.2"
   }
 }
