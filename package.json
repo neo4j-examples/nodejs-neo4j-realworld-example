@@ -1,0 +1,27 @@
+{
+  "name": "neo4j-express-realworld-example-app",
+  "version": "1.0.0",
+  "description": "conduit on node with neo4j",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest --config ./test/jest-e2e.json --watch --detectOpenHandles"
+  },
+  "author": "Adam Cowley <adam+git@neo4j.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.6.1",
+    "neo4j-driver": "^4.1.1",
+    "passport": "^0.4.1",
+    "passport-anonymous": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.1",
+    "supertest": "^4.0.2"
+  }
+}
